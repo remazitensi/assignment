@@ -1,15 +1,15 @@
 import { Entity, PrimaryColumn, Column, OneToOne, JoinColumn } from 'typeorm';
 import { User } from './user.entity';
 
-@Entity()
+@Entity('user_points')
 export class UserPoint {
-  @PrimaryColumn()
-  userId: string; // User와 1:1 관계이므로 ID를 기본키로 설정
+  @PrimaryColumn('uuid')
+  userId: string;
 
-  @OneToOne(() => User)
-  @JoinColumn()
+  @OneToOne(() => User, (user) => user.userPoint, { onDelete: 'CASCADE' })
+  @JoinColumn() 
   user: User;
 
   @Column({ default: 0 })
-  totalPoints: number; // 현재 총 포인트
+  totalPoints: number;
 }

@@ -6,18 +6,17 @@ import {
   UpdateDateColumn,
   OneToMany,
   OneToOne,
-  JoinColumn,
 } from 'typeorm';
 import { Review } from './review.entity';
 import { PointHistory } from './pointHistory.entity';
 import { UserPoint } from './userpoint.entity';
 
-@Entity('user')
+@Entity('users')
 export class User {
   @PrimaryGeneratedColumn('uuid')
   id: string;
 
-  @Column({ unique: true })
+  @Column({ unique: true, nullable: true })
   name: string;
 
   @CreateDateColumn()
@@ -34,8 +33,6 @@ export class User {
   @OneToMany(() => PointHistory, (pointHistory) => pointHistory.user)
   pointHistories: PointHistory[];
 
-  // 현재 총 포인트 (1:1)
-  @OneToOne(() => UserPoint, (userPoint) => userPoint.user)
-  @JoinColumn()
+  @OneToOne(() => UserPoint, (userPoint) => userPoint.user, { cascade: true })
   userPoint: UserPoint;
 }
