@@ -5,6 +5,7 @@ import { Review } from '../modules/points/entity/review.entity';
 import { PointHistory } from '../modules/points/entity/pointHistory.entity';
 import { UserPoint } from '../modules/points/entity/userpoint.entity';
 import * as dotenv from 'dotenv';
+import { SnakeNamingStrategy } from 'typeorm-naming-strategies';
 
 dotenv.config();
 
@@ -18,4 +19,5 @@ export const databaseConfig = (): TypeOrmModuleOptions => ({
   entities: [User, Product, Review, PointHistory, UserPoint],
   synchronize: false,
   logging: true,
+  namingStrategy: new SnakeNamingStrategy(),
 });

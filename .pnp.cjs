@@ -61,7 +61,8 @@ const RAW_RUNTIME_STATE =
           ["ts-loader", "virtual:fa9fee3096e09c265f519448be0e3150d5e6c61887b6dc9764197060fe6d83e302294ad9c5dad929dac3652d71b93139d55b836ceda52dd28c54d965c8b7f013#npm:9.5.2"],\
           ["ts-node", "virtual:fa9fee3096e09c265f519448be0e3150d5e6c61887b6dc9764197060fe6d83e302294ad9c5dad929dac3652d71b93139d55b836ceda52dd28c54d965c8b7f013#npm:10.9.2"],\
           ["tsconfig-paths", "npm:4.2.0"],\
-          ["typeorm", "virtual:fa9fee3096e09c265f519448be0e3150d5e6c61887b6dc9764197060fe6d83e302294ad9c5dad929dac3652d71b93139d55b836ceda52dd28c54d965c8b7f013#npm:0.3.21"],\
+          ["typeorm", "virtual:fa9fee3096e09c265f519448be0e3150d5e6c61887b6dc9764197060fe6d83e302294ad9c5dad929dac3652d71b93139d55b836ceda52dd28c54d965c8b7f013#npm:0.3.22"],\
+          ["typeorm-naming-strategies", "virtual:fa9fee3096e09c265f519448be0e3150d5e6c61887b6dc9764197060fe6d83e302294ad9c5dad929dac3652d71b93139d55b836ceda52dd28c54d965c8b7f013#npm:4.1.0"],\
           ["typescript", "patch:typescript@npm%3A5.8.2#optional!builtin<compat/typescript>::version=5.8.2&hash=5786d5"],\
           ["typescript-eslint", "virtual:fa9fee3096e09c265f519448be0e3150d5e6c61887b6dc9764197060fe6d83e302294ad9c5dad929dac3652d71b93139d55b836ceda52dd28c54d965c8b7f013#npm:8.28.0"],\
           ["uuid", "npm:11.1.0"],\
@@ -1853,7 +1854,7 @@ const RAW_RUNTIME_STATE =
           ["@types/typeorm", null],\
           ["reflect-metadata", "npm:0.2.2"],\
           ["rxjs", "npm:7.8.2"],\
-          ["typeorm", "virtual:fa9fee3096e09c265f519448be0e3150d5e6c61887b6dc9764197060fe6d83e302294ad9c5dad929dac3652d71b93139d55b836ceda52dd28c54d965c8b7f013#npm:0.3.21"]\
+          ["typeorm", "virtual:fa9fee3096e09c265f519448be0e3150d5e6c61887b6dc9764197060fe6d83e302294ad9c5dad929dac3652d71b93139d55b836ceda52dd28c54d965c8b7f013#npm:0.3.22"]\
         ],\
         "packagePeers": [\
           "@nestjs/common",\
@@ -10070,17 +10071,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["typeorm", [\
-      ["npm:0.3.21", {\
-        "packageLocation": "../../.yarn/berry/cache/typeorm-npm-0.3.21-d36a3c86a7-10c0.zip/node_modules/typeorm/",\
+      ["npm:0.3.22", {\
+        "packageLocation": "../../.yarn/berry/cache/typeorm-npm-0.3.22-eb9b99a15d-10c0.zip/node_modules/typeorm/",\
         "packageDependencies": [\
-          ["typeorm", "npm:0.3.21"]\
+          ["typeorm", "npm:0.3.22"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:fa9fee3096e09c265f519448be0e3150d5e6c61887b6dc9764197060fe6d83e302294ad9c5dad929dac3652d71b93139d55b836ceda52dd28c54d965c8b7f013#npm:0.3.21", {\
-        "packageLocation": "./.yarn/__virtual__/typeorm-virtual-01ae34bfb9/3/.yarn/berry/cache/typeorm-npm-0.3.21-d36a3c86a7-10c0.zip/node_modules/typeorm/",\
+      ["virtual:fa9fee3096e09c265f519448be0e3150d5e6c61887b6dc9764197060fe6d83e302294ad9c5dad929dac3652d71b93139d55b836ceda52dd28c54d965c8b7f013#npm:0.3.22", {\
+        "packageLocation": "./.yarn/__virtual__/typeorm-virtual-d68135fa88/3/.yarn/berry/cache/typeorm-npm-0.3.22-eb9b99a15d-10c0.zip/node_modules/typeorm/",\
         "packageDependencies": [\
-          ["typeorm", "virtual:fa9fee3096e09c265f519448be0e3150d5e6c61887b6dc9764197060fe6d83e302294ad9c5dad929dac3652d71b93139d55b836ceda52dd28c54d965c8b7f013#npm:0.3.21"],\
+          ["typeorm", "virtual:fa9fee3096e09c265f519448be0e3150d5e6c61887b6dc9764197060fe6d83e302294ad9c5dad929dac3652d71b93139d55b836ceda52dd28c54d965c8b7f013#npm:0.3.22"],\
           ["@google-cloud/spanner", null],\
           ["@sap/hana-client", null],\
           ["@sqltools/formatter", "npm:1.2.5"],\
@@ -10168,6 +10169,28 @@ const RAW_RUNTIME_STATE =
           "sqlite3",\
           "ts-node",\
           "typeorm-aurora-data-api-driver"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["typeorm-naming-strategies", [\
+      ["npm:4.1.0", {\
+        "packageLocation": "../../.yarn/berry/cache/typeorm-naming-strategies-npm-4.1.0-9e060d6928-10c0.zip/node_modules/typeorm-naming-strategies/",\
+        "packageDependencies": [\
+          ["typeorm-naming-strategies", "npm:4.1.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:fa9fee3096e09c265f519448be0e3150d5e6c61887b6dc9764197060fe6d83e302294ad9c5dad929dac3652d71b93139d55b836ceda52dd28c54d965c8b7f013#npm:4.1.0", {\
+        "packageLocation": "./.yarn/__virtual__/typeorm-naming-strategies-virtual-0fb4a32c50/3/.yarn/berry/cache/typeorm-naming-strategies-npm-4.1.0-9e060d6928-10c0.zip/node_modules/typeorm-naming-strategies/",\
+        "packageDependencies": [\
+          ["typeorm-naming-strategies", "virtual:fa9fee3096e09c265f519448be0e3150d5e6c61887b6dc9764197060fe6d83e302294ad9c5dad929dac3652d71b93139d55b836ceda52dd28c54d965c8b7f013#npm:4.1.0"],\
+          ["@types/typeorm", null],\
+          ["typeorm", "virtual:fa9fee3096e09c265f519448be0e3150d5e6c61887b6dc9764197060fe6d83e302294ad9c5dad929dac3652d71b93139d55b836ceda52dd28c54d965c8b7f013#npm:0.3.22"]\
+        ],\
+        "packagePeers": [\
+          "@types/typeorm",\
+          "typeorm"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -10855,7 +10878,8 @@ const RAW_RUNTIME_STATE =
           ["ts-loader", "virtual:fa9fee3096e09c265f519448be0e3150d5e6c61887b6dc9764197060fe6d83e302294ad9c5dad929dac3652d71b93139d55b836ceda52dd28c54d965c8b7f013#npm:9.5.2"],\
           ["ts-node", "virtual:fa9fee3096e09c265f519448be0e3150d5e6c61887b6dc9764197060fe6d83e302294ad9c5dad929dac3652d71b93139d55b836ceda52dd28c54d965c8b7f013#npm:10.9.2"],\
           ["tsconfig-paths", "npm:4.2.0"],\
-          ["typeorm", "virtual:fa9fee3096e09c265f519448be0e3150d5e6c61887b6dc9764197060fe6d83e302294ad9c5dad929dac3652d71b93139d55b836ceda52dd28c54d965c8b7f013#npm:0.3.21"],\
+          ["typeorm", "virtual:fa9fee3096e09c265f519448be0e3150d5e6c61887b6dc9764197060fe6d83e302294ad9c5dad929dac3652d71b93139d55b836ceda52dd28c54d965c8b7f013#npm:0.3.22"],\
+          ["typeorm-naming-strategies", "virtual:fa9fee3096e09c265f519448be0e3150d5e6c61887b6dc9764197060fe6d83e302294ad9c5dad929dac3652d71b93139d55b836ceda52dd28c54d965c8b7f013#npm:4.1.0"],\
           ["typescript", "patch:typescript@npm%3A5.8.2#optional!builtin<compat/typescript>::version=5.8.2&hash=5786d5"],\
           ["typescript-eslint", "virtual:fa9fee3096e09c265f519448be0e3150d5e6c61887b6dc9764197060fe6d83e302294ad9c5dad929dac3652d71b93139d55b836ceda52dd28c54d965c8b7f013#npm:8.28.0"],\
           ["uuid", "npm:11.1.0"],\
